@@ -1,8 +1,12 @@
+
 TEMPLATE = app
 TARGET = example
 
-CONFIG += static conan_basic_setup
+CONFIG += console
+CONFIG += conan_basic_setup
+CONFIG += debug
+include($$OUT_PWD/conanbuildinfo.pri)
+
 CONFIG -= qt
-include(conanbuildinfo.pri)
 
 SOURCES += example.cpp
