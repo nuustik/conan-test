@@ -1,0 +1,13 @@
+This is a simple test of conan package manager with qmake integration.
+Requirements: conan, qmake and make must be in path
+
+For releasing hello-lib use the following:
+cd hello-lib
+conan test_package
+
+For building hello-app use the following:
+cd hello-app
+conan install
+qmake
+make
+
