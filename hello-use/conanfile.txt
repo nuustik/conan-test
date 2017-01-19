@@ -1,0 +1,5 @@
+[requires]
+hello/0.1@armin/testing
+
+[generators]
+qmake
